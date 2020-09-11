@@ -1,6 +1,6 @@
 # Computing some morphological metrics
 
-This code is related to the article [Mouse embryonic stem cells self-organize into trunk-like structures with neural tube and somites]([https://dx.doi.org/10.1126/science.aba4937](https://dx.doi.org/10.1126/science.aba4937).
+This code is related to the article [Mouse embryonic stem cells self-organize into trunk-like structures with neural tube and somites](https://dx.doi.org/10.1126/science.aba4937).
 
 Globally, it allows to compute some morphological metrics from binary images in 2D and 3D.
 
@@ -19,6 +19,18 @@ Provided a isotropic masked image, its distance transform (see this [scipy modul
 - solidity: $\frac{V}{V_{conv-hull}}$
 
 - the sphericity (circularity in 2D): $\frac{\pi^\frac{1}{3}(6V)^{\frac{2}{3}}}{S}$  (or $\frac{4\pi A}{p^2}$ in 2D)
+
+# In this repository
+
+You can find:
+
+- `Computing_metrics.py` which contains the main script
+
+- `example.py` which shows an example on how to use the script
+
+- `LICENSE`, the license
+
+- `data/*` are example images on which you can test the script
 
 # Dependencies
 
