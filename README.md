@@ -38,7 +38,7 @@ You can find:
 
 - [scipy](scipy.org)
 
-- [tifffile](https://pypi.org/project/tifffile/)
+- [tifffile](https://pypi.org/project/tifffile/) (if you want to run the example script, otherwise any image reader that returns a numpy array)
 
 - [scikit-image](scikit-image.org)
 
